@@ -1,0 +1,8 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'bin/**/*'
+
+Style/Documentation:
+  Enabled: false
