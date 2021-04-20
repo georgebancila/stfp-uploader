@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>SFTP file uploading</h1>
+  <br/>
+  <p>
+    <%= form_tag("/uploads/upload", :method => "post", :multipart => true) do %>
+      <%= file_field 'upload', 'datafile' %>
+      <br/>
+      <%= submit_tag("Upload") %>
+    <% end %>
+  </p>
+  <% if flash[:message] %>
+    <div class="notice"><%= flash[:message] %></div>
+  <% end %>
+  <% if flash[:error_message] %>
+    <div class="notice"><%= flash[:error_message] %></div>
+  <% end %>
+</div>
