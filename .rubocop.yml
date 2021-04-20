@@ -3,6 +3,7 @@ AllCops:
   SuggestExtensions: false
   Exclude:
     - 'bin/**/*'
+    - 'node_modules/**/*'
 
 Style/Documentation:
   Enabled: false

@@ -32,7 +32,10 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'guard-rspec'
 gem 'net-sftp', '~> 2.1', '>= 2.1.2'
+gem 'rspec-its'
+gem 'rspec-rails'
 gem 'rubocop'
+gem 'usecasing'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
